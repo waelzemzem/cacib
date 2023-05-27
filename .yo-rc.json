@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.8.2",
+    "libraryName": "bnpre-dsi-spfx-extensions",
+    "libraryId": "bf8575c6-1bc0-4705-849e-4455f54868a4",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

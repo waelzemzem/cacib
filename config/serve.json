@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "http://pars402i2701.bnppi.priv/sites/DocsDSI/SitePages/Home.aspx",
+      "customActions": {
+        "dfc0ecdb-4630-4e2a-8788-c2590cf6fe60": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "CSSFileLocation": "/Style%20Library/DocsDSI/Commun/Css/style.css",
+            "Top": "Header Documents DSI",
+            "Bottom": "Footer documents DSI ",
+            "Header": "Header Documents DSI",
+            "Footer": "Footer documents DSI ",
+            "listTitle": "AppProceduresDocsLibrary",
+            "listViewTitle": "All Documents"
+          }
+        }
+      }
+    },
+    "bnpreNewsLatestDocsUploaded": {
+      "pageUrl": "http://pars402i2701.bnppi.priv/sites/DocsDSI/SitePages/Home.aspx",
+      "customActions": {
+        "dfc0ecdb-4630-4e2a-8788-c2590cf6fe60": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "CSSFileLocation": "/Style%20Library/DocsDSI/Commun/Css/style.css",
+            "Top": "Header Documents DSI",
+            "Bottom": "Footer documents DSI ",
+            "Header": "Header Documents DSI",
+            "Footer": "Footer documents DSI ",
+            "listTitle": "AppProceduresDocsLibrary",
+            "listViewTitle": "All Documents"
+          }
+        }
+      }
+    }
+  }
+}

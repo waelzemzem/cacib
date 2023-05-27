@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="BnpreNewsLatestDocsUploaded"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="dfc0ecdb-4630-4e2a-8788-c2590cf6fe60"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,33 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+$primarycolor : "[theme: themePrimary, default: #012a6d]";
+$primarybuttonText:"[theme:primaryButtonText, default:#ffffff]";
+.app
+{
+   background-color: $primarycolor;
+   color:$primarybuttonText;
+}
+
+  .top {
+      height:60px;
+       text-align:end;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $ms-color-themePrimary;
+      color: $ms-color-white;
+  }
+
+  .bottom {
+      height:40px;
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $ms-color-themePrimary;
+      color: $ms-color-white;
+      background-color: #333;
+  }
